@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+*{
+    font-family: Roboto;
+}
+
+body{
+    background-color: #5fc6c4;
+    overflow: hidden;
+}
+
+.bg-pattern{
+    position: absolute;
+    width: 75vw;
+}
+
+.bg-pattern-top{
+    left: -55vh;
+    top: -85vh;
+}
+
+.bg-pattern-bottom{
+    right: -35vh;
+    bottom: -90vh;
+}
+
+.card{
+    background-color: #fff;
+    width: 380px;
+    border-radius: 20px;
+    margin-top: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 20px 5px rgb(0 0 0 / .2);
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.card_pattern_img{
+    width: 100%;
+    background-color: #5fc6c4;
+    margin-bottom: 60px;
+}
+
+.card_profile_picture{
+    position: absolute;
+    left:36%;
+    top: 100px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    background-color: #fff;
+}
+
+.card_text{
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.card_text-light{
+    margin-top: 0;
+    font-weight: 400;
+    color: #aaa;
+    font-size: .8rem;
+}
+
+
+.card_footer{
+    text-align: center;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card_footer_text{
+    display: inline-block;
+    margin: 0 20px
+}
