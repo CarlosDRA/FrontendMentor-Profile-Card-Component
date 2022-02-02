@@ -35,21 +35,6 @@ body{
     bottom: -450px;
 }
 
-/* .bg-pattern{
-    position: absolute;
-    width: 75vw;
-}
-
-.bg-pattern-top{
-    left: -55vh;
-    top: -85vh;
-}
-
-.bg-pattern-bottom{
-    right: -35vh;
-    bottom: -90vh;
-} */
-
 .card{
     background-color: #fff;
     width: 380px;
