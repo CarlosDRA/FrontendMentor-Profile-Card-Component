@@ -5,11 +5,37 @@
 }
 
 body{
-    background-color: #5fc6c4;
+    background-color: #5fbac6;
     overflow: hidden;
 }
 
-.bg-pattern{
+
+
+.hidden{
+    display: none;
+}
+
+.background_top{
+    background-image: url(../images/bg-pattern-top.svg);
+    background-repeat: no-repeat;
+    width: 978px;
+    height: 978px;
+    position: absolute;
+    top: -400px;
+    right: 55vw;
+}
+
+.background_bottom{
+    background-image: url(../images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    width: 978px;
+    height: 978px;
+    position: absolute;
+    left: 55vw;
+    bottom: -450px;
+}
+
+/* .bg-pattern{
     position: absolute;
     width: 75vw;
 }
@@ -22,7 +48,7 @@ body{
 .bg-pattern-bottom{
     right: -35vh;
     bottom: -90vh;
-}
+} */
 
 .card{
     background-color: #fff;
