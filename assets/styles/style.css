@@ -9,7 +9,12 @@ body{
     overflow: hidden;
 }
 
-
+main{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
 
 .hidden{
     display: none;
@@ -18,26 +23,28 @@ body{
 .background_top{
     background-image: url(../images/bg-pattern-top.svg);
     background-repeat: no-repeat;
-    width: 978px;
-    height: 978px;
+    background-size: 100%;
+    width: 700px;
+    height: 700px;
     position: absolute;
-    top: -400px;
-    right: 55vw;
+    top: -350px;
+    right: 45vw;
 }
 
 .background_bottom{
     background-image: url(../images/bg-pattern-bottom.svg);
     background-repeat: no-repeat;
-    width: 978px;
-    height: 978px;
+    background-size: 100%;
+    width: 700px;
+    height: 700px;
     position: absolute;
-    left: 55vw;
-    bottom: -450px;
+    left: 40vw;
+    bottom: -350px;
 }
 
 .card{
     background-color: #fff;
-    width: 380px;
+    max-width: 380px;
     border-radius: 20px;
     margin-top: 20vh;
     margin-left: auto;
@@ -48,11 +55,13 @@ body{
     text-align: center;
 }
 
+
 .card_pattern_img{
     width: 100%;
     background-color: #5fc6c4;
     margin-bottom: 60px;
 }
+
 
 .card_profile_picture{
     position: absolute;
@@ -63,6 +72,12 @@ body{
     background-color: #fff;
 }
 
+@media screen and (max-width: 374px) {
+    .card_profile_picture{
+        left: 36%;
+        top: 24%;
+    }
+}
 .card_text{
     font-weight: bold;
     color: #333;
@@ -88,4 +103,83 @@ body{
 .card_footer_text{
     display: inline-block;
     margin: 0 20px
+}
+
+@media screen and (min-width: 768px){
+
+    .background_top{
+        background-image: url(../images/bg-pattern-top.svg);
+        background-repeat: no-repeat;
+        width: 978px;
+        height: 978px;
+        position: absolute;
+        top: -400px;
+        right: 55vw;
+    }
+    
+    .background_bottom{
+        background-image: url(../images/bg-pattern-bottom.svg);
+        background-repeat: no-repeat;
+        width: 978px;
+        height: 978px;
+        position: absolute;
+        left: 55vw;
+        bottom: -450px;
+    }
+    
+    .card{
+        background-color: #fff;
+        width: 380px;
+        border-radius: 20px;
+        margin-top: 20vh;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0 0 20px 5px rgb(0 0 0 / .2);
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+    }
+    
+    .card_pattern_img{
+        width: 100%;
+        background-color: #5fc6c4;
+        margin-bottom: 60px;
+    }
+    
+    .card_profile_picture{
+        position: absolute;
+        left:36%;
+        top: 100px;
+        border-radius: 50%;
+        border: 5px solid #fff;
+        background-color: #fff;
+    }
+    
+    .card_text{
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 5px;
+    }
+    
+    .card_text-light{
+        margin-top: 0;
+        font-weight: 400;
+        color: #aaa;
+        font-size: .8rem;
+    }
+    
+    
+    .card_footer{
+        text-align: center;
+        border-top: 1px solid #ccc;
+        padding-top: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .card_footer_text{
+        display: inline-block;
+        margin: 0 20px
+    }
+    
 }
