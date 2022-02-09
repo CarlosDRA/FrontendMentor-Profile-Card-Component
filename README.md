@@ -4,7 +4,8 @@
 
 In this small project I will recreate a profile component using simple html and basic css.
 
-![Profile card](./assets/images/Preview.png)
+![Desktop site](./assets/images/Preview.png)
+![Mobile site](./assets/images/Mobile-preview.png)
 
 ## Known Issues
 
