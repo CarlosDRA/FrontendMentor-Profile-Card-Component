@@ -9,8 +9,11 @@ In this small project I will recreate a profile component using simple html and 
 
 ## Known Issues
 
-- Any resolution below 1440px wide shrinks the page.
-- Related to the point above, there's no mobile site.
+- ~~Any resolution below 1440px wide shrinks the page~~. [Fixed]
+- ~~Related to the point above, there's no mobile site~~. [Fixed]
+
+## Updates
+- Added mobile site/made the page responsive.
 
 ## References
 [Frontend Mentor](https://www.frontendmentor.io/)
